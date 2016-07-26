@@ -1,0 +1,269 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import
+  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  font-family: Montserrat;
+  background-color: #2F4254;
+  color: #FFF;
+}
+/*****************************************
+           Navbar
+*****************************************/
+.navbar-default {
+  margin: 0;
+  border-radius: 0;
+  background-color: #1ABC9C;
+  border-bottom:8px solid rgba(0,0,0,0.1);
+  height: 5em;
+  padding-top: 5px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  font-family: Montserrat;
+}
+.navbar-default .navbar-toggle span {
+  color: white;
+}
+.navbar-default .navbar-brand {
+  color: #2F4254;
+  font-size: 24px;
+}
+.navbar-logo {
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  border-left:4px solid transparent;
+  transition-duration: 0.5s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #2F4254;
+  border-left: 4px solid #2F4254;
+}
+#nav-close {
+  color: #ED5A64;
+}
+#nav-close:hover {
+  border-left: 4px solid #ED5A64;
+}
+#nav-open {
+  background-color: grey;
+  border-style: none;
+  opacity: 0.5;
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  outline: 0;
+  transition-duration: 0.4s;
+}
+#nav-open:hover {
+  color: #ED5A64;
+}
+/*****************************************
+           Jumbotron
+*****************************************/
+.jumbotron {
+  text-align: center;
+  background-color: #2F4254;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  margin: 0px -15px;
+  padding-bottom: 150px;
+  padding-top: 100px;
+  height: 100%;
+}
+.jumbotron img {
+  border-radius: 50%;
+  border: 10px solid #FFFFFF;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+  margin-bottom: 15px;
+  max-width: 20em;
+}
+.jumbotron h1 {
+  display: inline;
+  margin: 0px 15px;
+}
+.jumbotron h2 {
+  margin-top: 35px;
+}
+.social-wrapper {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  border-top: 3px solid #16A085;
+  padding: 12px;
+  transition-duration: 0.4s;
+}
+.social-wrapper:hover {
+  color: #16A085;
+  border-top: 3px solid transparent;
+}
+#left-button {
+  border: 1px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px 15px;
+  transition-duration: 0.4s;
+}
+#left-button:hover {
+  background-color: #FFFFFF;
+  color: #16A085;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+}
+#right-button {
+  border: 1px solid #16A085;
+  border-bottom: 3px solid #16A085;
+  color: #16A085;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px 15px;
+  transition-duration: 0.4s;
+}
+#right-button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+  color: #16A085;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+}
+/****************************************
+           Section 1 (About me)
+****************************************/
+.content-first {
+  border-top: 8px solid rgba(0,0,0,0.2);
+  background-color: #1ABC9C;
+  margin: 0 -15px;
+  text-align: center;
+}
+.about-one {
+  background-color: rgba(0,0,0,0.1);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+.about-two {
+  padding: 70px 15px;
+}
+.about-three {
+  background-color: rgba(0,0,0,0.1);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+.about-four {
+  padding: 70px 15px;
+}
+/***************************************
+           Section 2 (Portfolio)
+****************************************/
+.content-second {
+  border-top: 8px solid rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #2F4254;
+  margin: 0 -15px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.content-second h2 {
+  font-size: 35px;
+  margin: 25px auto;
+  padding: 15px;
+  border-bottom:3px solid #ED5A64;
+  max-width: 7em;
+}
+.project-figure {
+  background-color: rgba(255,255,255, 0.95);
+  border: 8px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+  margin: 10px auto;
+  position: relative;
+  transition-duration: 0.35s;
+}
+.project-figure:hover {
+  background-color: #2F4254;
+  border:8px solid rgba(255,255,255, 0.95);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16), 2px 3px 1px rgba(0, 0, 0, 0.23);
+}
+.project-figure img {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+}
+.project-figure i {
+  position: relative;
+  font-size: 100px;
+  color: #1ABC9C;
+  padding: 105px;
+}
+.project-figure figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  color: transparent;
+  transition-duration: 0.35s;
+  cursor: pointer;
+}
+.project-figure figcaption:hover {
+  color: #FFF;
+  border: 1px solid white;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+}
+figcaption h3 {
+  margin-bottom: 0px;
+  color: #2F4254;
+}
+
+/***************************************
+           Section 3 (Contact me)
+****************************************/
+.content-third {
+  border-top: 8px solid rgba(0,0,0,0.1);
+  background-color: #1ABC9C;
+  margin: 0 -15px;
+  padding: 75px 0;
+}
+.contact-me {
+  background-color: #2F4254;
+  text-align: center;
+  max-width: 85%;
+  min-width: 85%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  
+}
+.contact-me a  {
+  font-size: 250px;
+  color: #1ABC9C;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+.contact-me a:hover {
+  color: #ED5A64;
+}
+.content-third h3 {
+  text-align: center;
+  color: white;
+}
+/***************************************
+           Section 4 (Footer)
+****************************************/
+.content-fourth {
+  border-top: 8px solid rgba(0,0,0,0.1);
+  background-color: #2F4254;
+  text-align: center;
+  margin: 0 -15px;
+  padding: 25px;
+}

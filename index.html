@@ -1,1 +1,233 @@
-Hello World
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio Dos</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--------------------------------------
+              Navbar
+--------------------------------------->
+<nav class="navbar navbar-default navbar-fixed-top" role='navigation'>
+  <div class="container-fluid">
+    <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <i class="fa fa-bars"></i>
+      </button>
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/088/38a/3fb192a.jpg" class="navbar-logo pull-left">
+      <a class="navbar-brand">Billy Waite</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about-me"><i class="fa fa-child"></i></span> About Me</a></li>
+        <li><a href="#portfolio"><i class="fa fa-folder"></i></span> Portfolio</a></li>
+<li><a href="#contact-me"><i class="fa fa-phone"></i></span> Contact Me</a></li>
+  <li><a id='nav-close' href="#"><i class="fa fa-times"></i></span> Menu</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>
+<button type='button' id='nav-open'><i class="fa fa-bars"></i> Menu</button>
+<!--------------------------------------
+              Jumbotron
+--------------------------------------->
+<div class="container-fluid">
+  <div class='jumbotron'>
+    <img src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/088/38a/3fb192a.jpg'</img>
+    <div class='row text-center'>
+      <a class='social-wrapper' href='https://www.linkedin.com/in/williamwaite' target="_blank">
+        <i class='fa fa-linkedin'></i>
+      </a>
+      <h1>Billy Waite</h1>
+      <a class='social-wrapper' href='https://github.com/billywaite' target="_blank">
+        <i class='fa fa-github-alt'></i>
+      </a>
+    </div>
+    <h2>Front End Web Development Portfolio</h2>
+    <button id='left-button'>
+    <i class='glyphicon glyphicon-info-sign'></i> View my portfolio
+  </button>
+    <button id='right-button' href='mailto:billy.waite91@gmail.com'>
+    <i class='glyphicon glyphicon-earphone'></i> Contact me
+  </button>
+  </div>
+  <!--------------------------------------
+              Section 1
+--------------------------------------->
+  <div id='about-me' class='content-first'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='about-one col-md-3'>
+          <h3>Experience</h3>
+          <p>I currently work in a technical marketing role developing landing pages, emails, and all other interactive marketing materials for my company. I weigh-in on our site architecture, execute on our SEO/SEM strategy, monitor website performance
+            to ensure all web properties have acceptable Time to Interact and Time to First Byte metrics, and enhance, update, and maintain existing web properties. </p>
+        </div>
+        <div class='about-two col-md-3'>
+          <h3>Skills</h3>
+          <p>I have extensive experience working with HTML5, CSS3, Less/Sass, Responsive design with Bootstrap, and Javascript/JQuery. I also have experience working on an Agile team using JIRA and experience with version control using Git/GitHub. I am currently
+            learning Node.Js, Express.Js, MongoDB, and deciding between React and Angular 2. I've been working with Ubuntu to learn the command line, and I have an interest in learning Python as well.</p>
+        </div>
+        <div class='about-three col-md-3'>
+          <h3>About me</h3>
+          <p>I went to the University of Maryland and I live in Washington D.C. I started my career in Sales and started learning to program after my roommate wrote an Autohotkey script that automated a large portion of my job, helping me to become the top
+            salesman at my company. I spend a lot of my free time coding, working on my upside down garden, traveling, and going to music shows.</p>
+        </div>
+        <div class='about-four col-md-3'>
+          <h3>Goal</h3>
+          <p>I'm always looking for fun and interesting open source projects to get involved with. I am also seeking a full time Front End Development position working with the MEAN stack. I'm really interested in internet security and tech for traditionally
+            low tech industries like agriculture.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------
+              Section 2
+--------------------------------------->
+  <div id='portfolio' class='content-second'>
+    <div class='container-fluid'>
+      <h2 id='left-scroll'>My Work</h2>
+      <div class='row'>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure random-quote'>
+            <a href='http://codepen.io/billywaite/full/pgBWgL/' target="_blank">
+              <i class="fa fa-quote-right"></i>
+              <figcaption>
+                <h3>Quote Generator</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure local-weather'>
+            <a href='https://codepen.io/billywaite/full/dMywGY/' target="_blank">
+              <i class="fa fa-cloud"></i>
+              <figcaption>
+                <h3>Local Weather</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure wiki-view'>
+            <a href='http://codepen.io/billywaite/full/QNbGgY/' target="_blank">
+              <i class="fa fa-search"></i>
+              <figcaption>
+                <h3>Wikipedia Viewer</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure calculator'>
+            <a href='http://codepen.io/billywaite/full/WwBrpX/' target="_blank">
+              <i class="fa fa-calculator"></i>
+              <figcaption>
+                <h3>Calculator</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure twitch'>
+            <a href='http://codepen.io/billywaite/full/wGoYew/' target="_blank">
+              <i class="fa fa-twitch"></i>
+              <figcaption>
+                <h3>Twitchtv JSON API</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure pomodoro'>
+            <a href='http://codepen.io/billywaite/full/mEeZRb/' target="_blank">
+              <i class="fa fa-clock-o"></i>
+              <figcaption>
+                <h3>Pomodoro Clock</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure tic-tac'>
+            <a href='http://codepen.io/billywaite/full/NrrpPR/' target="_blank">
+             <i class="fa fa-gamepad"></i>
+              <figcaption>
+                <h3>Tic Tac Toe</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class='col-xs-12 col-md-3'>
+          <figure class='project-figure simon'>
+            <a href='http://codepen.io/billywaite/full/pbNBNy/' target="_blank">
+             <i class="fa fa-question"></i>
+              <figcaption>
+                <h3>Simon Says</h3>
+                <p>Show me</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------
+              Section 3 (Contact me)
+--------------------------------------->
+  <div id='contact-me' class='content-third'>
+    <div class='container-fluid contact-me'>
+      <div class='row'>
+      <h3 id='right-scroll'>I'm always interested in new opportunities. Contact me!</h3>
+      <a class='email' href="mailto:billy.waite91@gmail.com">
+        <i class='fa fa-envelope-square'></i>
+      </a>
+      <a class='contact-li' href='https://www.linkedin.com/in/williamwaite' target="_blank">
+        <i class='fa fa-linkedin-square'></i>
+      </a>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------
+              Section 4 (Footer)
+--------------------------------------->
+  <div class='content-fourth'>
+    <div class='container-fluid'>
+      <div class='col-xs-12'>
+        <p>Thanks for taking a look!</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
