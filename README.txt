@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/billywaite/pen/pbPxwE.
+My portfolio hosted on github pages!
 
  
